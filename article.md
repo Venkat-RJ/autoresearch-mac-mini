@@ -27,7 +27,7 @@ Starting from the default config (val_bpb 1.729), Haiku ran 10 experiments auton
 
 **Experiments 5-10 — Searching:** All discarded. Haiku tried smaller head dim, different LR schedules, different adam betas, zero weight decay. Nothing beat 1.470.
 
-![progress chart](https://raw.githubusercontent.com/Venkateshwar-PortoAI/autoresearch-mac-mini/master/examples/mac-mini-m4/progress.png)
+![progress chart](https://raw.githubusercontent.com/Venkat-RJ/autoresearch-mac-mini/master/examples/mac-mini-m4-haiku/progress.png)
 
 ## The Key Insight
 
@@ -57,11 +57,11 @@ This is the exact same finding the autoresearch-mlx fork discovered on M4 Max. H
 
 ## Try It
 
-The fork is open source: [autoresearch-mac-mini](https://github.com/Venkateshwar-PortoAI/autoresearch-mac-mini)
+The fork is open source: [autoresearch-mac-mini](https://github.com/Venkat-RJ/autoresearch-mac-mini)
 
 Clone it, run `uv sync && uv run prepare.py`, point any AI agent at `program.md`, and leave it running. Works on any Mac, Linux box, or GPU machine.
 
-Full results with charts: [examples/mac-mini-m4](https://github.com/Venkateshwar-PortoAI/autoresearch-mac-mini/tree/master/examples/mac-mini-m4)
+Full results with charts: [examples/mac-mini-m4-haiku](https://github.com/Venkat-RJ/autoresearch-mac-mini/tree/master/examples/mac-mini-m4-haiku)
 
 If you get results on different hardware, add them to `examples/` and open a PR.
 

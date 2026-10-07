@@ -40,6 +40,6 @@ memory: 198 MB
 15% improvement. Zero human intervention. $2 in API costs.
 
 Try It
-github.com/Venkateshwar-PortoAI/autoresearch-mac-mini
+github.com/Venkat-RJ/autoresearch-mac-mini
 
 Clone it, point any AI agent at program.md, and leave it running. Works on any Mac, Linux box, or GPU machine. Built on @karpathy's autoresearch.

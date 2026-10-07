@@ -127,7 +127,7 @@ Contributions welcome — pick any of these and open a PR!
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # 2. Clone this repo
-git clone https://github.com/Venkateshwar-PortoAI/autoresearch-mac-mini.git
+git clone https://github.com/Venkat-RJ/autoresearch-mac-mini.git
 cd autoresearch-mac-mini
 
 # 3. Install dependencies
